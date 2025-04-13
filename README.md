@@ -1,7 +1,7 @@
 
 ECOSENSE: Intelligent Control for Presence-Based Lighting and Ventilation
 
-A smart automation system leveraging YOLOv8 for **real-time human presence detection**, **fan and light control**, and **fire alert**, using just a camera — no additional sensors required!
+A smart automation system leveraging YOLOv8 for "real-time human presence detection", "fan and light control", and "fire alert", using just a camera — no additional sensors required!
 
 ---
 
@@ -34,7 +34,7 @@ Technologies Used
 │   └── Fan.pt              # For fan detection
 ├── README.md               # This file
 ```
-
+Note: This is just a display of our work so the weights are not included.
 ---
 
 How It Works
@@ -42,8 +42,8 @@ How It Works
 🔹 Fan Automation
 
 - Detects human and fan using two separate YOLOv8 models.
-- Checks if the person is **directly under the fan**.
-- Turns **Fan ON** if both detections are confident and spatially aligned.
+- Checks if the person is "directly under the fan".
+- Turns "Fan ON" if both detections are confident and spatially aligned.
 
 ---
 
@@ -56,7 +56,7 @@ How It Works
 
 🔹 Alarm Trigger
 
-- If **no human is detected** for more than 10 seconds, an alarm is raised (textual simulation).
+- If "no human is detected" for more than 10 seconds, an alarm is raised (textual simulation).
 - Can be extended to trigger actual alarms for fire/safety.
 
 ---
@@ -117,6 +117,3 @@ Press `q` to quit the camera feed.
 
 This project is licensed under the [MIT License](LICENSE).
 
----
-
-Would you like me to generate the GitHub repository structure for this or export the `README.md` file?
